@@ -1,12 +1,12 @@
 <template>
 	<div class="container">
 		<div class="flex flex-column align-items-center mt-1">
-			<img alt="Vue logo" src="assetsrimevue-logo.png" />
+			<img alt="Vue logo" src="./assets/primevue-logo.png" />
 			<PrimeToast />
 
 			<div class="mt-4">
 				<form @submit.prevent="greet">
-					<PrimeInputText type="text" v-model="text" />
+					<PrimeInputText type="text" v-model="text" class="mr-3" />
 					<PrimeButton type="submit" label="Submit" />
 				</form>
 			</div>
